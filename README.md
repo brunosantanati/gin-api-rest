@@ -2,9 +2,9 @@
 
 ### Links úteis  
 
-[Código original](https://github.com/alura-cursos/api_rest_gin_go)
+[Código original](https://github.com/alura-cursos/api_rest_gin_go)  
 [Gin GitHub page](https://github.com/gin-gonic/gin)  
-[Gorm page](https://gorm.io/)
+[Gorm page](https://gorm.io/)  
 
 ### Comandos
 

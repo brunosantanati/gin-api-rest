@@ -91,6 +91,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Deletar Aluno",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alunos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"2"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

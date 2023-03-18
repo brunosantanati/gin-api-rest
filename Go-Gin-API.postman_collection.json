@@ -71,6 +71,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Exibe Aluno Por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alunos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"1"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

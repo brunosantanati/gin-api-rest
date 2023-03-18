@@ -4,12 +4,15 @@
 
 [Código original](https://github.com/alura-cursos/api_rest_gin_go)
 [Gin GitHub page](https://github.com/gin-gonic/gin)  
+[Gorm page](https://gorm.io/)
 
 ### Comandos
 
 ```
 go mod init github.com/brunosantanati/api-go-gin
 go get -u github.com/gin-gonic/gin
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/postgres
 docker-compose up
 docker-compose down
 

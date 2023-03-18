@@ -111,6 +111,35 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Editar Aluno",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Martinho Lutero\",\n    \"cpf\": \"44444444444\",\n    \"rg\": \"888888888\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/alunos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"1"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

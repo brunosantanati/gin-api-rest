@@ -113,6 +113,27 @@
 			"response": []
 		},
 		{
+			"name": "Exibe Aluno Por CPF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alunos/cpf/44444444444",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alunos",
+						"cpf",
+						"44444444444"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Editar Aluno",
 			"request": {
 				"method": "PATCH",
